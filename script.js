@@ -13,7 +13,7 @@ function compileCode() {
       <head>
         <style>${cssCode}</style>
       </head>
-      <body>${htmlCode}</body>
+      <body style="background:rgba(0,0,0,0)">${htmlCode}</body>
       <script>${jsCode}</script>
       </html>
     `;
